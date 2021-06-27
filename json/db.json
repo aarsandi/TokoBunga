@@ -1,0 +1,67 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "title": "melati",
+      "price": 7000,
+      "image": "img/bg-img/41.png",
+      "description": "lorem ipsum dolor sit amet",
+      "stok": "3"
+    },
+    {
+      "id": 2,
+      "title": "mawar",
+      "price": 10000,
+      "image": "img/bg-img/42.png",
+      "description": "lorem ipsum dolor sit amet",
+      "stok": "2"
+    },
+    {
+      "id": 3,
+      "title": "apa aj",
+      "price": 12000,
+      "image": "img/bg-img/43.png",
+      "description": "lorem ipsum dolor sit amet",
+      "stok": 7
+    },
+    {
+      "id": 4,
+      "title": "melati",
+      "price": 90000,
+      "image": "img/bg-img/44.png",
+      "description": "lorem ipsum dolor sit amet",
+      "stok": 5
+    },
+    {
+      "id": 5,
+      "title": "test",
+      "price": 5000,
+      "image": "img/bg-img/45.png",
+      "description": "test",
+      "stok": 5
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "email": "admin@mail.com",
+      "password": "password"
+    },
+    {
+      "email": "aarsandi@gmail.com",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "email": "farid@gmail.com",
+      "password": "password",
+      "id": 3
+    },
+    {
+      "email": "apaaj@mail.com",
+      "password": "password",
+      "id": 4
+    }
+  ],
+  "keranjang": []
+}
