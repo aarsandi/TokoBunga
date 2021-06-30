@@ -6,7 +6,9 @@
       "price": 7000,
       "image": "img/bg-img/41.png",
       "description": "lorem ipsum dolor sit amet",
-      "stok": "3"
+      "stok": "200",
+      "tags": "flower, cactus, outdoor",
+      "category": "outdoor"
     },
     {
       "id": 2,
@@ -14,7 +16,9 @@
       "price": 10000,
       "image": "img/bg-img/42.png",
       "description": "lorem ipsum dolor sit amet",
-      "stok": "2"
+      "stok": "16",
+      "tags": "flower, outdoor",
+      "category": "outdoor"
     },
     {
       "id": 3,
@@ -22,7 +26,9 @@
       "price": 12000,
       "image": "img/bg-img/43.png",
       "description": "lorem ipsum dolor sit amet",
-      "stok": 7
+      "stok": "19",
+      "tags": "flower, cactus, outdoor",
+      "category": "gift"
     },
     {
       "id": 4,
@@ -30,7 +36,9 @@
       "price": 90000,
       "image": "img/bg-img/44.png",
       "description": "lorem ipsum dolor sit amet",
-      "stok": 5
+      "stok": "2",
+      "tags": "flower, cactus",
+      "category": "outdoor"
     },
     {
       "id": 5,
@@ -38,30 +46,44 @@
       "price": 5000,
       "image": "img/bg-img/45.png",
       "description": "test",
-      "stok": 5
+      "stok": "3",
+      "tags": "flower",
+      "category": "indoor"
     }
   ],
   "user": [
     {
-      "id": 1,
-      "email": "admin@mail.com",
-      "password": "password"
+      "name": "coba",
+      "email": "coba@mail.com",
+      "password": "password",
+      "id": 1
     },
     {
-      "email": "aarsandi@gmail.com",
-      "password": "password",
+      "name": "cobalagi",
+      "email": "cobalagi@mail.com",
+      "password": "coba",
+      "id": 2
+    }
+  ],
+  "keranjang": [],
+  "historyOrder": [
+    {
+      "idNota": "INVjlml7n3tz1625016728000",
+      "status": "sedang diproses",
+      "totalBarang": "1",
+      "totalHarga": "12000",
+      "tanggal": "Wed Jun 30 2021 08:32:08 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "cobalagi@mail.com",
       "id": 2
     },
     {
-      "email": "farid@gmail.com",
-      "password": "password",
+      "idNota": "INVq2x2of58p1625016992000",
+      "status": "sedang diproses",
+      "totalBarang": "10",
+      "totalHarga": "730000",
+      "tanggal": "Wed Jun 30 2021 08:36:32 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "cobalagi@mail.com",
       "id": 3
-    },
-    {
-      "email": "apaaj@mail.com",
-      "password": "password",
-      "id": 4
     }
-  ],
-  "keranjang": []
+  ]
 }
