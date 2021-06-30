@@ -47,7 +47,7 @@ jQuery(document).ready(() => {
         const name = $('#nameRegister').val()
         const email = $('#usernameRegister').val()
         const password = $('#passwordRegister').val()
-        if(email&&password&&isAggre){
+        if(email&&password){
             $('#registerMessage').empty()
             $('#alertRegisterTerm').empty()
             $.ajax({
@@ -55,7 +55,7 @@ jQuery(document).ready(() => {
                 url: `http://localhost:3000/user`,
                 data: { name, email, password }
             })
-                .done((response) => {
+            .done((response) => {
                     if(response){
                         showLogin()
                     }
@@ -100,7 +100,6 @@ jQuery(document).ready(() => {
                             })
                                 .done((response) => {
                                     if(response){
-                                        showKeranjangPage()
                                         $('#show-alert').show()
                                         $('#show-alert').empty()
                                         $('#show-alert').append(`
@@ -142,7 +141,6 @@ jQuery(document).ready(() => {
                             })
                                 .done((response) => {
                                     if(response){
-                                        showKeranjangPage()
                                         $('#show-alert').show()
                                         $('#show-alert').empty()
                                         $('#show-alert').append(`
@@ -182,11 +180,6 @@ jQuery(document).ready(() => {
     $('#showShopPageBtn').click((e) => {
         e.preventDefault()
         showBrowseProduct()
-    })
-
-    $('#showAboutPageBtn').click((e) => {
-        e.preventDefault()
-        showAboutPage()
     })
 
     $('#showContactPageBtn').click((e) => {
@@ -305,7 +298,7 @@ function fetchKeranjang() {
                     $('#keranjangList').append(`
                         <tr>
                             <td class="cart_product_img">
-                                <a><img src="${product.image}" alt="Product"></a>
+                                <a><img src="${product.image}" alt="Product" class="mx-auto"></a>
                                 <h5>${product.title}</h5>
                             </td>
                             <td class="qty"><span>${product.amount}</span></td>
@@ -330,34 +323,30 @@ function fetchKeranjang() {
                 $('#buyBtn').show()
                 $('#totalItem').append(`${totalItem}`)
                 $('#totalPrice').append(`Rp${subTotal.toLocaleString('id-ID')}.00`)
-                $(`#buyBtn`).click(async(event) => {
+                $(`#buyBtn`).click((event) => {
                     event.preventDefault()
                     if(products&&products.length&&localStorage.getItem('token')){
-                        response.forEach( async (product) => {
+                        response.forEach(async(product) => {
                             let productTemp = products.find(e => e.id == product.productId)
                             if(productTemp){
                                 let remaining = Number(productTemp.stok) - Number(product.amount)
-                                await $.ajax({
+                                const res2 = await $.ajax({
                                     method: 'PATCH',
                                     url: `${SERVER_PATH}/product/${productTemp.id}`,
                                     data: {
                                         stok: remaining
                                     }
-                                }).done(_ => {
-                                    console.log('berhasil edit stok')
                                 })
-                                await $.ajax({
+                                const res3 = await $.ajax({
                                     method: 'DELETE',
                                     url: `${SERVER_PATH}/keranjang/${product.id}`
-                                }).done(_ => {
-                                    console.log('berhasil delete keranjang')
                                 })
                             }else{
                                 showBrowseProduct()
                             }
                         })
                         const dateNow = new Date()
-                        await $.ajax({
+                        $.ajax({
                             method: 'POST',
                             url: `http://localhost:3000/historyOrder`,
                             data: {
@@ -369,19 +358,18 @@ function fetchKeranjang() {
                                 userEmail: localStorage.getItem('token')
                             }
                         }).done(_ => {
-                            console.log('berhasil Membuat invoice')
+                            showBrowseProduct()
+                            $('#show-alert').show()
+                            $('#show-alert').empty()
+                            $('#show-alert').append(`
+                                <div class="alert alert-primary alert-dismissible show my-0" role="alert">
+                                    Pesananmu Sedang diproses, Silahkan tunggu konfirmasi selanjutnya
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            `)
                         })
-                        showBrowseProduct()
-                        $('#show-alert').show()
-                        $('#show-alert').empty()
-                        $('#show-alert').append(`
-                            <div class="alert alert-primary alert-dismissible show my-0" role="alert">
-                                Pesananmu Sedang diproses, Silahkan tunggu konfirmasi selanjutnya
-                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                        `)
                     }else{
                         showBrowseProduct()
                         $('#show-alert').show()
@@ -450,6 +438,7 @@ function checkLogin() {
         $('#navUser').hide()
         $('#navLoginBtn').show()
     } else {
+        $('.addCartComp').show()
         $('#userLoginEmail').empty()
         $('#navUser').show()
         $('#navLoginBtn').hide()
@@ -528,15 +517,6 @@ function showCheckoutPage() {
     $('#singleProductPage').hide()
     $('#keranjangPage').hide()
     $('#checkoutPage').show()
-}
-
-function showAboutPage() {
-    $('#shopPage').hide()
-    $('#aboutPage').show()
-    $('#contactPage').hide()
-    $('#singleProductPage').hide()
-    $('#keranjangPage').hide()
-    $('#checkoutPage').hide()
 }
 
 function showKeranjangPage() {

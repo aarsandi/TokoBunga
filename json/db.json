@@ -6,7 +6,7 @@
       "price": 7000,
       "image": "img/bg-img/41.png",
       "description": "lorem ipsum dolor sit amet",
-      "stok": "200",
+      "stok": "83",
       "tags": "flower, cactus, outdoor",
       "category": "outdoor"
     },
@@ -16,17 +16,17 @@
       "price": 10000,
       "image": "img/bg-img/42.png",
       "description": "lorem ipsum dolor sit amet",
-      "stok": "16",
+      "stok": "2",
       "tags": "flower, outdoor",
       "category": "outdoor"
     },
     {
       "id": 3,
-      "title": "apa aj",
+      "title": "bangke",
       "price": 12000,
-      "image": "img/bg-img/43.png",
+      "image": "img/bg-img/49.jpg",
       "description": "lorem ipsum dolor sit amet",
-      "stok": "19",
+      "stok": "-1",
       "tags": "flower, cactus, outdoor",
       "category": "gift"
     },
@@ -36,7 +36,7 @@
       "price": 90000,
       "image": "img/bg-img/44.png",
       "description": "lorem ipsum dolor sit amet",
-      "stok": "2",
+      "stok": "588",
       "tags": "flower, cactus",
       "category": "outdoor"
     },
@@ -46,44 +46,19 @@
       "price": 5000,
       "image": "img/bg-img/45.png",
       "description": "test",
-      "stok": "3",
+      "stok": "1",
       "tags": "flower",
       "category": "indoor"
     }
   ],
   "user": [
     {
-      "name": "coba",
-      "email": "coba@mail.com",
+      "name": "sandi",
+      "email": "sandi@mail.com",
       "password": "password",
       "id": 1
-    },
-    {
-      "name": "cobalagi",
-      "email": "cobalagi@mail.com",
-      "password": "coba",
-      "id": 2
     }
   ],
   "keranjang": [],
-  "historyOrder": [
-    {
-      "idNota": "INVjlml7n3tz1625016728000",
-      "status": "sedang diproses",
-      "totalBarang": "1",
-      "totalHarga": "12000",
-      "tanggal": "Wed Jun 30 2021 08:32:08 GMT+0700 (Western Indonesia Time)",
-      "userEmail": "cobalagi@mail.com",
-      "id": 2
-    },
-    {
-      "idNota": "INVq2x2of58p1625016992000",
-      "status": "sedang diproses",
-      "totalBarang": "10",
-      "totalHarga": "730000",
-      "tanggal": "Wed Jun 30 2021 08:36:32 GMT+0700 (Western Indonesia Time)",
-      "userEmail": "cobalagi@mail.com",
-      "id": 3
-    }
-  ]
+  "historyOrder": []
 }
