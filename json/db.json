@@ -2,11 +2,11 @@
   "product": [
     {
       "id": 1,
-      "title": "melati",
+      "title": "Big Bright Blue Skies",
       "price": 7000,
-      "image": "img/bg-img/41.png",
+      "image": "img/bg-img/BF216-11KM.jpg",
       "description": "lorem ipsum dolor sit amet",
-      "stok": "83",
+      "stok": "162",
       "tags": "flower, cactus, outdoor",
       "category": "outdoor"
     },
@@ -16,37 +16,37 @@
       "price": 10000,
       "image": "img/bg-img/42.png",
       "description": "lorem ipsum dolor sit amet",
-      "stok": "2",
+      "stok": "331",
       "tags": "flower, outdoor",
       "category": "outdoor"
     },
     {
       "id": 3,
-      "title": "bangke",
+      "title": "European Floral",
       "price": 12000,
-      "image": "img/bg-img/49.jpg",
-      "description": "lorem ipsum dolor sit amet",
-      "stok": "-1",
+      "image": "img/bg-img/BF82-11K_R.jpg",
+      "description": "Send the Floral Garden to give someone the gift of a seasonally appropriate, overflowing garden, right in their home. This bouquet is filled with bright yellow sunflowers, green poms, pink tulips and more! You can send these as a thank you, a congratulations, or simple a I'm thinking of you! Delivered in a clear glass vase, wrapped in farmhouse style twine, this bouquet is arranged by a local florist and hand-delivered. Measures 12H by 10L",
+      "stok": "0",
       "tags": "flower, cactus, outdoor",
       "category": "gift"
     },
     {
       "id": 4,
-      "title": "melati",
+      "title": "Orchid Flower",
       "price": 90000,
-      "image": "img/bg-img/44.png",
+      "image": "img/bg-img/TEV55-6_A3.jpg",
       "description": "lorem ipsum dolor sit amet",
-      "stok": "588",
+      "stok": "525",
       "tags": "flower, cactus",
       "category": "outdoor"
     },
     {
       "id": 5,
-      "title": "test",
+      "title": "One Dozen Rainbow Roses",
       "price": 5000,
-      "image": "img/bg-img/45.png",
+      "image": "img/bg-img/F-211.jpg",
       "description": "test",
-      "stok": "1",
+      "stok": "0",
       "tags": "flower",
       "category": "indoor"
     }
@@ -57,8 +57,348 @@
       "email": "sandi@mail.com",
       "password": "password",
       "id": 1
+    },
+    {
+      "name": "cobayah",
+      "email": "coba@gmail.com",
+      "password": "password",
+      "id": 2
     }
   ],
   "keranjang": [],
-  "historyOrder": []
+  "historyOrder": [
+    {
+      "idNota": "INV3fdyp3zas1625070235000",
+      "status": "sedang diproses",
+      "totalBarang": "1",
+      "totalHarga": "10000",
+      "tanggal": "Wed Jun 30 2021 23:23:55 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "sandi@mail.com",
+      "id": 1
+    },
+    {
+      "idNota": "INV456fdszgw1625070304000",
+      "status": "sedang diproses",
+      "totalBarang": "1",
+      "totalHarga": "12000",
+      "tanggal": "Wed Jun 30 2021 23:25:04 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "sandi@mail.com",
+      "id": 2
+    },
+    {
+      "idNota": "INVa1dhswt901625070304000",
+      "status": "sedang diproses",
+      "totalBarang": "1",
+      "totalHarga": "12000",
+      "tanggal": "Wed Jun 30 2021 23:25:04 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "sandi@mail.com",
+      "id": 3
+    },
+    {
+      "idNota": "INVq3mggaj5j1625070304000",
+      "status": "sedang diproses",
+      "totalBarang": "1",
+      "totalHarga": "12000",
+      "tanggal": "Wed Jun 30 2021 23:25:04 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "sandi@mail.com",
+      "id": 4
+    },
+    {
+      "idNota": "INVc3et7op4g1625070330000",
+      "status": "sedang diproses",
+      "totalBarang": "5",
+      "totalHarga": "35000",
+      "tanggal": "Wed Jun 30 2021 23:25:30 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "sandi@mail.com",
+      "id": 5
+    },
+    {
+      "idNota": "INVhhvjtp7uw1625075717000",
+      "status": "sedang diproses",
+      "totalBarang": "4",
+      "totalHarga": "28000",
+      "tanggal": "Thu Jul 01 2021 00:55:17 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "sandi@mail.com",
+      "id": 6
+    },
+    {
+      "idNota": "INVjblq401dt1625077126000",
+      "status": "sedang diproses",
+      "totalBarang": "8",
+      "totalHarga": "471000",
+      "tanggal": "Thu Jul 01 2021 01:18:46 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "sandi@mail.com",
+      "id": 7
+    },
+    {
+      "idNota": "INVctkltjlwm1625077310000",
+      "status": "sedang diproses",
+      "totalBarang": "4",
+      "totalHarga": "360000",
+      "tanggal": "Thu Jul 01 2021 01:21:50 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "sandi@mail.com",
+      "id": 8
+    },
+    {
+      "idNota": "INVl23mo0px21625077324000",
+      "status": "sedang diproses",
+      "totalBarang": "9",
+      "totalHarga": "810000",
+      "tanggal": "Thu Jul 01 2021 01:22:04 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "sandi@mail.com",
+      "id": 9
+    },
+    {
+      "idNota": "INV5c26192el1625082406000",
+      "status": "sedang diproses",
+      "totalBarang": "4",
+      "totalHarga": "360000",
+      "tanggal": "Thu Jul 01 2021 02:46:46 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 10
+    },
+    {
+      "idNota": "INVafh1v6h031625082566000",
+      "status": "sedang diproses",
+      "totalBarang": "5",
+      "totalHarga": "450000",
+      "tanggal": "Thu Jul 01 2021 02:49:26 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 11
+    },
+    {
+      "idNota": "INVutqivgvid1625082636000",
+      "status": "sedang diproses",
+      "totalBarang": "5",
+      "totalHarga": "35000",
+      "tanggal": "Thu Jul 01 2021 02:50:36 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 12
+    },
+    {
+      "idNota": "INV8milam7b91625082920000",
+      "status": "sedang diproses",
+      "totalBarang": "19",
+      "totalHarga": "465000",
+      "tanggal": "Thu Jul 01 2021 02:55:20 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 13
+    },
+    {
+      "idNota": "INVoca2ariyu1625083171000",
+      "status": "sedang diproses",
+      "totalBarang": "5",
+      "totalHarga": "35000",
+      "tanggal": "Thu Jul 01 2021 02:59:31 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 14
+    },
+    {
+      "idNota": "INV1y5nxriu51625083179000",
+      "status": "sedang diproses",
+      "totalBarang": "5",
+      "totalHarga": "450000",
+      "tanggal": "Thu Jul 01 2021 02:59:39 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 15
+    },
+    {
+      "idNota": "INVv3nex8eb31625083190000",
+      "status": "sedang diproses",
+      "totalBarang": "2",
+      "totalHarga": "15000",
+      "tanggal": "Thu Jul 01 2021 02:59:50 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 16
+    },
+    {
+      "idNota": "INVtfjebw6dc1625083205000",
+      "status": "sedang diproses",
+      "totalBarang": "4",
+      "totalHarga": "360000",
+      "tanggal": "Thu Jul 01 2021 03:00:05 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 17
+    },
+    {
+      "idNota": "INV1ji5oaj4q1625083216000",
+      "status": "sedang diproses",
+      "totalBarang": "3",
+      "totalHarga": "270000",
+      "tanggal": "Thu Jul 01 2021 03:00:16 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 18
+    },
+    {
+      "idNota": "INVumvn6rfai1625083238000",
+      "status": "sedang diproses",
+      "totalBarang": "7",
+      "totalHarga": "49000",
+      "tanggal": "Thu Jul 01 2021 03:00:38 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 19
+    },
+    {
+      "idNota": "INVmswulnnaa1625083558000",
+      "status": "sedang diproses",
+      "totalBarang": "4",
+      "totalHarga": "28000",
+      "tanggal": "Thu Jul 01 2021 03:05:58 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 20
+    },
+    {
+      "idNota": "INVf209g5l271625083579000",
+      "status": "sedang diproses",
+      "totalBarang": "14",
+      "totalHarga": "596000",
+      "tanggal": "Thu Jul 01 2021 03:06:19 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 21
+    },
+    {
+      "idNota": "INVh1gx2azob1625083584000",
+      "status": "sedang diproses",
+      "totalBarang": "5",
+      "totalHarga": "450000",
+      "tanggal": "Thu Jul 01 2021 03:06:24 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 22
+    },
+    {
+      "idNota": "INVvazyq5bl71625083590000",
+      "status": "sedang diproses",
+      "totalBarang": "5",
+      "totalHarga": "450000",
+      "tanggal": "Thu Jul 01 2021 03:06:30 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 23
+    },
+    {
+      "idNota": "INV5j6wgqicj1625083597000",
+      "status": "sedang diproses",
+      "totalBarang": "5",
+      "totalHarga": "35000",
+      "tanggal": "Thu Jul 01 2021 03:06:37 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 24
+    },
+    {
+      "idNota": "INVddb06ccme1625083606000",
+      "status": "sedang diproses",
+      "totalBarang": "9",
+      "totalHarga": "810000",
+      "tanggal": "Thu Jul 01 2021 03:06:46 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 25
+    },
+    {
+      "idNota": "INVrugn60sjb1625083896000",
+      "status": "sedang diproses",
+      "totalBarang": "21",
+      "totalHarga": "562000",
+      "tanggal": "Thu Jul 01 2021 03:11:36 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 26
+    },
+    {
+      "idNota": "INVa08xf9fi91625084233000",
+      "status": "sedang diproses",
+      "totalBarang": "26",
+      "totalHarga": "1012000",
+      "tanggal": "Thu Jul 01 2021 03:17:13 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 27
+    },
+    {
+      "idNota": "INVryyepbfcz1625084245000",
+      "status": "sedang diproses",
+      "totalBarang": "5",
+      "totalHarga": "450000",
+      "tanggal": "Thu Jul 01 2021 03:17:25 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 28
+    },
+    {
+      "idNota": "INVvivxk68a71625084309000",
+      "status": "sedang diproses",
+      "totalBarang": "2",
+      "totalHarga": "14000",
+      "tanggal": "Thu Jul 01 2021 03:18:29 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 29
+    },
+    {
+      "idNota": "INVqa0ug5j2i1625084313000",
+      "status": "sedang diproses",
+      "totalBarang": "5",
+      "totalHarga": "450000",
+      "tanggal": "Thu Jul 01 2021 03:18:33 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 30
+    },
+    {
+      "idNota": "INVnpu22b2d21625084317000",
+      "status": "sedang diproses",
+      "totalBarang": "9",
+      "totalHarga": "810000",
+      "tanggal": "Thu Jul 01 2021 03:18:37 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 31
+    },
+    {
+      "idNota": "INV76wya3kw61625085010000",
+      "status": "sedang diproses",
+      "totalBarang": "6",
+      "totalHarga": "540000",
+      "tanggal": "Thu Jul 01 2021 03:30:10 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 32
+    },
+    {
+      "idNota": "INVrj8qqpwij1625085044000",
+      "status": "sedang diproses",
+      "totalBarang": "67",
+      "totalHarga": "6030000",
+      "tanggal": "Thu Jul 01 2021 03:30:44 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 33
+    },
+    {
+      "idNota": "INVgyxpnpsnx1625085058000",
+      "status": "sedang diproses",
+      "totalBarang": "4",
+      "totalHarga": "360000",
+      "tanggal": "Thu Jul 01 2021 03:30:58 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 34
+    },
+    {
+      "idNota": "INVkwehs4ojp1625085068000",
+      "status": "sedang diproses",
+      "totalBarang": "4",
+      "totalHarga": "360000",
+      "tanggal": "Thu Jul 01 2021 03:31:08 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 35
+    },
+    {
+      "idNota": "INVlanbrbo2r1625085190000",
+      "status": "sedang diproses",
+      "totalBarang": "13",
+      "totalHarga": "115000",
+      "tanggal": "Thu Jul 01 2021 03:33:10 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 36
+    },
+    {
+      "idNota": "INViehvhyd2h1625085203000",
+      "status": "sedang diproses",
+      "totalBarang": "4",
+      "totalHarga": "40000",
+      "tanggal": "Thu Jul 01 2021 03:33:23 GMT+0700 (Western Indonesia Time)",
+      "userEmail": "coba@gmail.com",
+      "id": 37
+    }
+  ]
 }
